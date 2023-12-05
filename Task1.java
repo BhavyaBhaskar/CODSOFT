@@ -1,3 +1,4 @@
+//NUMBER GAME
 import java.util.*;
 public class Task1
 {
