@@ -7,7 +7,7 @@ public class Task1
         Scanner scan = new Scanner(System.in);
 
         int chance = 5;
-        System.out.println("Enter your Guess");
+        System.out.println("Enter your Guess between 1 to 100");
         while (chance > 1)
         {
             int guess;
@@ -33,7 +33,7 @@ public class Task1
 
         String c;
         do {
-            int RandomNum = random.nextInt(9) + 1;
+            int RandomNum = random.nextInt(99) + 1;
             obj.Guess(RandomNum);
 
             System.out.println("Do you want to Play again");
